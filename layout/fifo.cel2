@@ -1,0 +1,42 @@
+padgroup d_in_vector nopermute
+twpin_d_in[0]  fixed
+twpin_d_in[1]  fixed
+twpin_d_in[2]  fixed
+twpin_d_in[3]  fixed
+twpin_d_in[4]  fixed
+twpin_d_in[5]  fixed
+twpin_d_in[6]  fixed
+twpin_d_in[7]  fixed
+restrict side R
+
+padgroup d_out_vector nopermute
+twpin_d_out[0]  fixed
+twpin_d_out[1]  fixed
+twpin_d_out[2]  fixed
+twpin_d_out[3]  fixed
+twpin_d_out[4]  fixed
+twpin_d_out[5]  fixed
+twpin_d_out[6]  fixed
+twpin_d_out[7]  fixed
+restrict side L
+
+padgroup fifo_counter_vector nopermute
+twpin_fifo_counter[0]  fixed
+twpin_fifo_counter[1]  fixed
+twpin_fifo_counter[2]  fixed
+twpin_fifo_counter[3]  fixed
+twpin_fifo_counter[4]  fixed
+restrict side B
+
+padgroup inputs nopermute
+twpin_clk  fixed
+twpin_reset  fixed
+twpin_wr_en  fixed
+twpin_rd_en  fixed
+restrict side TL
+
+padgroup output nopermute
+twpin_empty  fixed
+twpin_full  fixed
+restrict side LR
+
